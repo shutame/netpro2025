@@ -1,6 +1,7 @@
+package ex2;
 import java.util.Random;
 
-public class TheBoilingEarthEraC {
+public class TheBoilingEarthEraB {
     private static enum 年度 {
         y2016(0),
         y2017(1),
@@ -29,26 +30,24 @@ public class TheBoilingEarthEraC {
         double[][] temperatures = new double[10][31];
             double aveTemp = 年度.values()[9].getAveTemp();
             // System.out.println("平均気温: " + aveTemp + "℃");
+            Boolean prevIsHotDay = false;
             StringBuffer hotStr = new StringBuffer();
 
             Random rand = new Random();
-            for(int i = 0; i < 10; i++){
-                Boolean prevIsHotDay = false;
-                for(int j = 0; j < 31; j++){
-                    double delta = rand.nextInt(11) - 5 + rand.nextDouble(); 
-                    temperatures[i][j] = Math.floor((aveTemp + delta) * 10) / 10;
-                    System.out.println((2016+i) + "年7月" + (j+1) + "日: " + temperatures[9][j] + "℃");
+            for(int j = 0; j < 31; j++){
+                double delta = rand.nextInt(11) - 5 + rand.nextDouble(); 
+                temperatures[9][j] = Math.floor((aveTemp + delta) * 10) / 10;
+                System.out.println(2025 + "年7月" + (j+1) + "日: " + temperatures[9][j] + "℃");
 
-                    if(temperatures[i][j] >= 30.0){
-                        if(prevIsHotDay){
-                            String str = (2016+i) + "年" + "7月" + j + "日: " + temperatures[i][j-1] + "℃ と " +
-                                (2016+i) + "年" + "7月" + (j+1) + "日: " + temperatures[i][j] + "℃" + "\n";
-                            hotStr.append(str);
-                        }
-                        prevIsHotDay = true;
-                    }else{
-                        prevIsHotDay = false;
+                if(temperatures[9][j] >= 30.0){
+                    if(prevIsHotDay){
+                        String str = "2025年7月" + j + "日: " + temperatures[9][j-1] + "℃ と " +
+                            "2025年7月" + (j+1) + "日: " + temperatures[9][j] + "℃" + "\n";
+                        hotStr.append(str);
                     }
+                    prevIsHotDay = true;
+                }else{
+                    prevIsHotDay = false;
                 }
             }
         System.out.println("猛暑日連続ペア");

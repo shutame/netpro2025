@@ -1,3 +1,4 @@
+package ex2;
 // C言語では、#include に相当する
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,3 +1,4 @@
+package ex2;
 //ユーザの現在の年齢を入力し、10年後の年齢を表示するプログラム
 import java.util.InputMismatchException;
 import java.util.Scanner;
