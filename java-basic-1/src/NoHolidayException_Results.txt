@@ -1,0 +1,35 @@
+5月の何日ですか?("exit"を入力すると終了します.)
+1
+平日だhttps://soude.su 
+https://iyado.su
+NoHolidayException: 平日だhttps://soude.su 
+https://iyado.su
+        at MyExceptionHoliday.main(MyExceptionHoliday.java:21)
+5月の何日ですか?("exit"を入力すると終了します.)
+2
+平日だhttps://soude.su 
+https://iyado.su
+NoHolidayException: 平日だhttps://soude.su 
+https://iyado.su
+        at MyExceptionHoliday.main(MyExceptionHoliday.java:21)
+5月の何日ですか?("exit"を入力すると終了します.)
+3
+3日はお休みです。
+https://ofuton.in
+5月の何日ですか?("exit"を入力すると終了します.)
+4
+4日はお休みです。
+https://ofuton.in
+5月の何日ですか?("exit"を入力すると終了します.)
+5
+5日はお休みです。
+https://ofuton.in
+5月の何日ですか?("exit"を入力すると終了します.)
+31
+31日はお休みです。
+https://ofuton.in
+5月の何日ですか?("exit"を入力すると終了します.)
+32
+1から31の間で入力してください。
+5月の何日ですか?("exit"を入力すると終了します.)
+exit

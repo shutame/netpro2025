@@ -18,6 +18,13 @@ public class Subject {
 	public int getScore() {
 		return score;
 	}
+
+	public void setId(int id) {
+		studentid = id;
+	}
+	public int getId() {
+		return studentid;
+	}
 }
 
 // メソッド 関数のこと  

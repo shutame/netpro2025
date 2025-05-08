@@ -23,7 +23,7 @@ public class XmasTree {
                     if (j >= width/2 - i && j <= width/2 + i){
                         System.out.print("*");
                     }else if (i == j){
-                        // System.out.print(flake);
+                        System.out.print(flake);
                     }else {
                         System.out.print(" ");
                     }
