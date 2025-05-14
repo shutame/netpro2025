@@ -1,3 +1,4 @@
+package ex3;
 public class ClassA {
 	String name="classA";
 	

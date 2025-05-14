@@ -1,3 +1,4 @@
+package ex3;
 public class AverageA {
 	public static void main(String[] args){
 

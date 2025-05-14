@@ -1,3 +1,4 @@
+package ex3;
 public class MyCatTest {
     public static void main(String[] args) {
         IDrivable mycar=(IDrivable)new CarImpl();

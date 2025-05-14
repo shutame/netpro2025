@@ -1,3 +1,4 @@
+package ex3;
 public class MyExceptionHoliday {
     public static void main(String[] args) {
         System.out.println("5月の何日ですか?(\"exit\"を入力すると終了します.)");

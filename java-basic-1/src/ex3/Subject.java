@@ -1,3 +1,4 @@
+package ex3;
 public class Subject {
 	String name;
 	int score;

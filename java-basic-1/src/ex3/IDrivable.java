@@ -1,3 +1,4 @@
+package ex3;
 public interface IDrivable {
     void drive(int speed);
     void stop(int withintime);

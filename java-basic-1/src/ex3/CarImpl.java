@@ -1,3 +1,4 @@
+package ex3;
 public class CarImpl implements IDrivable {
     public int speed; //privateでは動かなかった。
 

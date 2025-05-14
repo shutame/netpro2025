@@ -1,3 +1,4 @@
+package ex3;
 public class NoHolidayException extends Exception {
     public NoHolidayException(String message) {
         super(message);
