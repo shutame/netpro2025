@@ -1,18 +1,56 @@
-## Getting Started
+# 動作内容
+数当てゲーム  
+サーバ側のランダムに選定された数を当てるゲーム  
+- サーバはセッションが確立されると``0-10``の範囲で乱数を生成
+- クライアントは数を当たるまで送信する
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# コンソール出力
+## クライアント側
+```
+ポートを入力してください(5000など) → 8080
+localhostの8080番ポートに接続を要求します
+接続されました
+数当てゲーム！！！
+何番かな？(0-10の整数を入力)
+5
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+3
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+2
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+7
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+6
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+8
+残念はずれ！もう一回！！
+何番かな？(0-10の整数を入力)
+9
+正解！！！
+```
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## サーバ側
+```
+localhostの8080番ポートで待機します
+接続しました。相手の入力を待っています......
+今回は9
+0回目
+相手の予想は5です
+1回目
+相手の予想は3です
+2回目
+相手の予想は2です
+3回目
+相手の予想は7です
+4回目
+相手の予想は6です
+5回目
+相手の予想は8です
+6回目
+相手の予想は9です
+```

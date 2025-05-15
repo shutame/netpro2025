@@ -3,9 +3,10 @@ import java.io.ObjectOutputStream;
 import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Random;
 import java.util.Scanner;
 
-public class XmasServer {
+public class GuessingServer {
 
     private static final int times = 2;
 
@@ -33,29 +34,45 @@ public class XmasServer {
             Socket socket = server.accept(); // クライアントからの接続要求を待ち、
             // 要求があればソケットを取得し接続を行う
             System.out.println("接続しました。相手の入力を待っています......");
-
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
-
-            XmasPresent present = (XmasPresent) ois.readObject();// Integerクラスでキャスト。
-
-            String msgPresent = present.getMessage();
-            System.out.println("メッセージは" + msgPresent);
-            String presentFromClient = present.getContent();
-            System.out.println("プレゼントの内容は" + presentFromClient);
-
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 
-            XmasPresent response = new XmasPresent();
-            response.setMessage("サーバーです。メリークリスマス！\n" + presentFromClient + "ありがとう。\nプレゼントのお返しは" + times + "倍" + "です");
-            response.setContent(serverProcess(presentFromClient));
 
-            oos.writeObject(response);
-            oos.flush();
 
-            // close処理
-            ois.close();
-            oos.close();
+            int validNum = new Random().nextInt(11);
+            System.out.println("今回は" + validNum);
+            boolean isValid = false;
+            while (!isValid) {
+                Payload request = (Payload) ois.readObject();// Integerクラスでキャスト。
+
+                String count = request.getMessage();
+                System.out.println(count + "回目");
+                String num = request.getContent();
+                System.out.println("相手の予想は" + num + "です");
+
+                Payload response = new Payload();
+                int intNum = Integer.valueOf(num);
+                if(intNum == validNum){
+                    isValid = true;
+                    response.setMessage("success");
+                    response.setContent("正解！！！");;
+                }else{
+                    response.setMessage("faild");
+                    response.setContent("残念はずれ！もう一回！！");
+                }
+
+                oos.writeObject(response);
+                oos.flush();
+
+                // close処理
+                if(isValid){
+                    ois.close();
+                    oos.close();
+                }
+            }
             // socketの終了。
+            oos.close();
+            ois.close();
             socket.close();
             server.close();
 

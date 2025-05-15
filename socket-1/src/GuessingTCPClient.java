@@ -4,7 +4,7 @@ import java.net.BindException;
 import java.net.Socket; //ネットワーク関連のパッケージを利用する
 import java.util.Scanner;
 
-public class XmasTCPClient {
+public class GuessingTCPClient {
 
     public static void main(String arg[]) {
         try {
@@ -12,36 +12,40 @@ public class XmasTCPClient {
             System.out.print("ポートを入力してください(5000など) → ");
             int port = scanner.nextInt();
             System.out.println("localhostの" + port + "番ポートに接続を要求します");
-            Socket socket = new Socket("169.254.182.81", port);
+            Socket socket = new Socket("127.0.0.1", port);
             System.out.println("接続されました");
 
-            System.out.println("プレゼントを送ります");
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
-
-            System.out.println("メッセージを入力してください(例:メリークリスマス) ↓");
-            String message = scanner.next();
-            System.out.println("プレゼントの内容を入力してください(例:お菓子) ↓");
-            String content = scanner.next();
-            scanner.close();
-
-            XmasPresent present = new XmasPresent();
-            present.setMessage(message);
-            present.setContent(content);
-
-            oos.writeObject(present);
-            oos.flush();
-
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
 
-            XmasPresent okaeshiPresent = (XmasPresent) ois.readObject();
+            System.out.println("数当てゲーム！！！");
+            int i = 0;
+            boolean isFaild = true;
+            while (isFaild){
+                System.out.println("何番かな？(0-10の整数を入力)");
+                String content = scanner.next();
 
-            String replayMsg = okaeshiPresent.getMessage();
-            System.out.println("サーバからのメッセージは" + replayMsg);
-            String replayContent = okaeshiPresent.getContent();
-            System.out.println(replayContent + "をもらいました！");
+                Payload payload = new Payload();
+                String message = String.format("%d", i);
+                payload.setMessage(message);
+                payload.setContent(content);
 
-            ois.close();
+                oos.writeObject(payload);
+                oos.flush();
+
+                Payload responce = (Payload) ois.readObject();
+
+                String replayContent = responce.getContent();
+                System.out.println(replayContent);
+
+                if (responce.getMessage().equals("success")){
+                    isFaild = false;
+                }
+                i++;
+            }
             oos.close();
+            ois.close();
+            scanner.close();
             socket.close();
 
         } // エラーが発生したらエラーメッセージを表示してプログラムを終了する
