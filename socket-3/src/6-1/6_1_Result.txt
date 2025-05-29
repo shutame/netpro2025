@@ -1,0 +1,27 @@
+# クライアント
+1回目
+```
+Please enter some message
+hogePIYOfuGa
+送信: hogePIYOfuGa
+返答: HOGEPIYOFUGA
+```
+
+2回目
+```
+Please enter some message
+ superhexagon
+送信: superhexagon
+返答: SUPERHEXAGON
+```
+
+# サーバ
+```
+Server is running on port: 9876
+受信: hogePIYOfuGa
+送信: HOGEPIYOFUGA
+Server is running on port: 9876
+受信: superhexagon
+送信: SUPERHEXAGON
+Server is running on port: 9876
+```
