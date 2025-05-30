@@ -1,0 +1,15 @@
+# クライアント
+```
+$ & 'C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\igame\AppData\Roaming\Code\User\workspaceStorage\d9627d1318d59fdc1a46cefb824b3388\redhat.java\jdt_ws\netpro2025_22cc63b8\bin' 'TaskClientOnce' 
+19
+```
+# サーバ
+```
+$ & 'C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\igame\AppData\Roaming\Code\User\workspaceStorage\d9627d1318d59fdc1a46cefb824b3388\redhat.java\jdt_ws\netpro2025_22cc63b8\bin' 'TaskServerOnce' 
+Server Started
+Connected
+Calculating...
+Calculation finished
+Sent back the result
+Task Completed
+```

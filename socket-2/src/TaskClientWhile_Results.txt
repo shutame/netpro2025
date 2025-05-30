@@ -1,0 +1,617 @@
+# クライアント
+```
+$ e:; cd 'e:\MediaFiles\Documents\Repos\netpro2025'; & 'C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\igame\AppData\Roaming\Code\User\workspaceStorage\d9627d1318d59fdc1a46cefb824b3388\redhat.java\jdt_ws\netpro2025_22cc63b8\bin' 'TaskClientWhile' 
+Client Started
+Connected
+Sending task 100
+899981
+Sending task 99
+899981
+Sending task 98
+899981
+Sending task 97
+899981
+Sending task 96
+899981
+Sending task 95
+899981
+Sending task 94
+899981
+Sending task 93
+899981
+Sending task 92
+899981
+Sending task 91
+899981
+Sending task 90
+899981
+Sending task 89
+899981
+Sending task 88
+899981
+Sending task 87
+899981
+Sending task 86
+899981
+Sending task 85
+899981
+Sending task 84
+899981
+Sending task 83
+899981
+Sending task 82
+899981
+Sending task 81
+899981
+Sending task 80
+899981
+Sending task 79
+899981
+Sending task 78
+899981
+Sending task 77
+899981
+Sending task 76
+899981
+Sending task 75
+899981
+Sending task 74
+899981
+Sending task 73
+899981
+Sending task 72
+899981
+Sending task 71
+899981
+Sending task 70
+899981
+Sending task 69
+899981
+Sending task 68
+899981
+Sending task 67
+899981
+Sending task 66
+899981
+Sending task 65
+899981
+Sending task 64
+899981
+Sending task 63
+899981
+Sending task 62
+899981
+Sending task 61
+899981
+Sending task 60
+899981
+Sending task 59
+899981
+Sending task 58
+899981
+Sending task 57
+899981
+Sending task 56
+899981
+Sending task 55
+899981
+Sending task 54
+899981
+Sending task 53
+899981
+Sending task 52
+899981
+Sending task 51
+899981
+Sending task 50
+899981
+Sending task 49
+899981
+Sending task 48
+899981
+Sending task 47
+899981
+Sending task 46
+899981
+Sending task 45
+899981
+Sending task 44
+899981
+Sending task 43
+899981
+Sending task 42
+899981
+Sending task 41
+899981
+Sending task 40
+899981
+Sending task 39
+899981
+Sending task 38
+899981
+Sending task 37
+899981
+Sending task 36
+899981
+Sending task 35
+899981
+Sending task 34
+899981
+Sending task 33
+899981
+Sending task 32
+899981
+Sending task 31
+899981
+Sending task 30
+899981
+Sending task 29
+899981
+Sending task 28
+899981
+Sending task 27
+899981
+Sending task 26
+899981
+Sending task 25
+899981
+Sending task 24
+899981
+Sending task 23
+899981
+Sending task 22
+899981
+Sending task 21
+899981
+Sending task 20
+899981
+Sending task 19
+899981
+Sending task 18
+899981
+Sending task 17
+899981
+Sending task 16
+899981
+Sending task 15
+899981
+Sending task 14
+899981
+Sending task 13
+899981
+Sending task 12
+899981
+Sending task 11
+899981
+Sending task 10
+899981
+Sending task 9
+899981
+Sending task 8
+899981
+Sending task 7
+899981
+Sending task 6
+899981
+Sending task 5
+899981
+Sending task 4
+899981
+Sending task 3
+899981
+Sending task 2
+899981
+Sending task 1
+899981
+Task Completed!
+```
+
+# サーバ
+```
+$ e:; cd 'e:\MediaFiles\Documents\Repos\netpro2025'; & 'C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\igame\AppData\Roaming\Code\User\workspaceStorage\d9627d1318d59fdc1a46cefb824b3388\redhat.java\jdt_ws\netpro2025_22cc63b8\bin' 'TaskServerWhile' 
+Server Started
+Connected
+Roop Started
+Receiving task 2147483647
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483646
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483645
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483644
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483643
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483642
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483641
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483640
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483639
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483638
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483637
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483636
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483635
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483634
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483633
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483632
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483631
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483630
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483629
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483628
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483627
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483626
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483625
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483624
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483623
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483622
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483621
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483620
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483619
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483618
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483617
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483616
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483615
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483614
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483613
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483612
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483611
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483610
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483609
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483608
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483607
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483606
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483605
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483604
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483603
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483602
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483601
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483600
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483599
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483598
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483597
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483596
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483595
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483594
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483593
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483592
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483591
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483590
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483589
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483588
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483587
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483586
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483585
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483584
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483583
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483582
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483581
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483580
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483579
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483578
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483577
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483576
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483575
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483574
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483573
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483572
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483571
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483570
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483569
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483568
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483567
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483566
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483565
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483564
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483563
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483562
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483561
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483560
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483559
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483558
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483557
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483556
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483555
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483554
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483553
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483552
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483551
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483550
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483549
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483548
+Calculating...
+Calculation finished
+Sent back the result
+Receiving task 2147483547
+IOException: java.io.EOFException
+```
